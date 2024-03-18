@@ -1,0 +1,33 @@
+{
+  "name": "OLC1-proyecto2-201701015",
+  "version": "1.0.0",
+  "description": "Proyecto 2 de organizacion de lenguajes y compiladores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc && node construido/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseMore99/OLC1-proyecto2-201701015.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseMore99/OLC1-proyecto2-201701015/issues"
+  },
+  "homepage": "https://github.com/JoseMore99/OLC1-proyecto2-201701015#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jison": "^0.4.18"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
